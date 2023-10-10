@@ -1,7 +1,7 @@
 name=input("Enter the USER ID:")
 pin=int(input("Enter the 4 digit PIN:"))
 def ATM(name,pin):
-    name1=['Krish2594', 'Sujit8907', 'Jagannanth4309', 'Sovan6879', 'Soam7072']
+    name1=['Krish2594', 'Sujit8907', 'Jagannanth4309', 'Sovan6879', 'Soam8072']
     pinno=[9768, 4532, 2137, 3589,5123]
     for i in range(0,len(name1)):
         if(name==name1[i] and pin==pinno[i]):
