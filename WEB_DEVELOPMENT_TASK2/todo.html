@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="todo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>TO-DO-LIST</title>
+</head>
+<body>
+  <div class="container">
+    <div class="todo-header">
+      <h2>TO-DO-LIST <img src="https://cdn.pixabay.com/photo/2016/03/31/19/50/checklist-1295319_1280.png" alt=""></h2>
+      <div class="input">
+        <input type="text" id="inputbox" placeholder="Add your task">
+        <button onclick="addTask()">ADD</button>
+      </div>
+      <ul id="to-do-list">
+        <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+      </ul>
+    </div>
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
